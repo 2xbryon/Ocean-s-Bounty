@@ -1,4 +1,4 @@
-I used AI to assist with the code base and referenced w3schools.
+This is a practice project, designed to gauge my level of comfortability to code from stratch. I used AI to assist with the code base due to the future implementation and convience of AI. I believe it is better to know how to properly use it and still have the knowledge to code without it. Bottomline is, people made use AI to make a template for a website, but it'll never have the creativity and foresight humans to do make a website how we envision it.
 
 Style.css:
 This file holds the banner and navigation bar styles. The banner repeats across the screen due to issues with proportional resizing. The navigation bar uses flex for alignment, with buttons spaced using padding.
