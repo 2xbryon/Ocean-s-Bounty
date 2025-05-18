@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset = "UTC-8">
+	<title>Ocean's Bounty</title>
+	<link rel="stylesheet" href="Style.css">
+</head>
+<style>
+.form_container {
+	width: 50%;
+	padding: 20px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	}
+
+.form_container input, 
+.form_container textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	}
+	
+</style>
+
+<body>
+
+<div class="banner">
+</div>
+
+<div class= "navbar">
+	<a href="index.html"><b>Home</b></a>
+        <a href="menu.html"><b>Menu</b></a>
+        <a href="about us.html"><b>About Us</b></a>
+        <a href="contact.html"><b>Contact</b></a>
+</div>
+
+<h4 style="text-align:center;">Have any questions? Reach out to us using the form below.</h4>
+
+<div class= "form_container">
+<form action=/submit_contact" method="POST">
+
+<label for="full_name">Name:</label>
+<input type="text" id= "fullname" name="Full_Name" placeholder= "Enter your full name." required>
+
+<label for="email">Email:</label>
+<input type="text" id= "email" name="Email" placeholder= "Enter your email." required>
+
+<label for="message">Message:</label>
+<textarea id="message" name= "message" rows="5" placeholder="Enter your message." required></textarea>
+
+<button type="submit">Send Message</button>
+</form>
+</div>
+
+</body>
+</html>

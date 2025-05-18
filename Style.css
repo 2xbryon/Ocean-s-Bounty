@@ -1,0 +1,35 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+        }
+
+/* Banner */
+.banner {
+	background-image: url('logo.jpg');
+	background-size: contain;
+	background-position: center;
+        height: 300px;
+        align-items: center;
+        }
+
+/* Navigation */
+.navbar {
+	background-color: #0070a6;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        }
+
+.navbar a {
+	color: white;
+	text-decoration: none;
+	padding: 14px 20px;
+	display: block;
+	text-align: center;
+        }
+
+.navbar a:hover {
+        background-color: #870d0f;
+        }
+
